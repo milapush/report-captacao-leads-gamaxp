@@ -9,10 +9,155 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/slick.css">
     <link rel="stylesheet" href="style/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="scripts/slick.js"></script> 
 </head>
 <body>
+    <div class="row p-4">
+        <div class="col-md-5 text-center text-lg-left">
+            <img src="images/logo-powerexe.png" alt="logo-powerexe" class="img-fluid">
+        </div>
+        <div class="d-none col-md-7 d-md-flex text-right justify-content-end">
+            <a href="#strixbylojack" class="d-flex flex-column justify-content-center px-4 mb-0 link-nav">
+                Infos Gerais
+            </a>
+            <a href="#funciones" class="px-4 mb-0 d-flex flex-column justify-content-center link-nav">
+                Sobre nós
+            </a>
+            <a href="#beneficios" class="px-4 mb-0 d-flex flex-column justify-content-center link-nav">
+                Hacker
+            </a>
+            <a href="#appStrix" class="px-4 mb-0 d-flex flex-column justify-content-center link-nav">
+                Hipster
+            </a>
+            <a href="#appStrix" class="px-4 mb-0 d-flex flex-column justify-content-center link-nav">
+                Hustler
+            </a>
+            <a href="#appStrix" class="px-4 mb-0 d-flex flex-column justify-content-center link-nav">
+                Hyper
+            </a>
+        </div>
+    </div>
+
+    <div class="banner p-4 text-center">
+        <h1 class="text-uppercase titulo font-weight-bold pt-lg-5">Show me the leads</h1>
+        <h2 class="text-white h1 mb-lg-5">Relatório Final</h2>
+    </div>
+
+    <!-- <div class="p-4">
+        <div class="container">
+            <div class="row align-items-center">
+            <div class="col-md-5 text-lg-right">
+                <img src="images/logos-help-ca.png" alt="help-gestao" class="pr-lg-5">
+            </div>
+            <div class="col-6">
+                <p class="text-left pt-lg-4">Conta Azul é uma empresa de software brasileira que desenvolve e vende uma plataforma de gestão de negócios, inteiramente em nuvem, para micro e pequenas empresas, com uma extensão para escritórios contábeis. </p>
+            </div>
+        </div>
+        <div class="row text-center mt-3">
+            <div class="col">
+                    <a href="https://helpgestao.com.br/" target="_blank" class="btn btn-gradiente px-3 btn-lg">Confira nossa landing page</a>
+            </div>
+        </div>
+        </div>
+    </div> -->
+    <div class="bg-light p-4">
+        <div class="container">
+        <div class="row slick">
+            <div class="col text-center">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        <h3 class="text-green">Resumo da semana</h3>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-center">Objetivo <br> <span class="h4">1000 Leads</span> </li>
+                        <li class="list-group-item text-center">Leads Captados <br> <span class="h4 font-weight-bold">1000</span></li>
+                        <div class="list-group-item">
+                            <p class="text-center font-weight-bold mb-0" data-toggle="collapse" href="#certo" role="button" aria-expanded="false" aria-controls="collapseExample">O que deu certo? <i class="fa fa-angle-down"></i></li>
+                            <p class="collapse text-center" id="certo">abcdgegiahasbsvgsabsbs</p>
+                        </div>
+                        <div class="list-group-item">
+                            <p class="text-center font-weight-bold mb-0" data-toggle="collapse" href="#errado" role="button" aria-expanded="false" aria-controls="collapseExample">O que deu errado? <i class="fa fa-angle-down"></i></li>
+                            <p class="collapse text-center" id="errado">abcdgegiahasbsvgsabsbs</p>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col text-center">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        <h4 class="text-green text-center">Ferramentas e 
+                            canais utilizados</h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-center">Gerenciamento do projeto <br> <span class="h4"><i class="fa fa-trello"></i> Trello</span> </li>
+                        <li class="list-group-item text-center">Reuniões Online <br> <span class="h4"><i class="fas fa-headset"></i> Zoom.us</span></li>
+                        <li class="list-group-item text-center">Comunicação Geral<br> <span class="h4"><i class="fa fa-whatsapp"></i> Whatsapp</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col text-center">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        <h3 class="text-green text-center">Alinhamentos
+                            iniciais</h3>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-center">Entender o negócio do cliente.</li>
+                        <li class="list-group-item text-center">Definir públicos e personas.</li>
+                        <li class="list-group-item text-center">Decidir tema do conteúdo rico </li>
+                        <li class="list-group-item text-center mb-2">Separação das tarefas por
+                            integrante de cada stack</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <script>
+        $(".slick").slick({
+            infinite: true,
+            slidesToShow: 5,
+            mobileFirst: true,
+            arrows: true,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            // the magic
+            responsive: [{
+                breakpoint: 1440,
+                settings: {
+                    slidesToShow: 3,
+                    dots: true,
+                    arrows: true
+                }
+            },{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 3,
+                    dots: true,
+                    arrows: true
+                }
+            }, {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    dots: true,
+                    arrows: true
+                }
+            }, {
+                breakpoint: 300,
+                settings: {
+                    slidesToShow: 1,
+                    dots: true,
+                    arrows: true
+                }
+            }]
+        });
+    </script>
 </body>
 </html>

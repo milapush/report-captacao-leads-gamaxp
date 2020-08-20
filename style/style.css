@@ -1,6 +1,6 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    overflow: hidden;
+    font-family: 'Roboto', sans-serif, 'Font Awesome 5 Free';
+    overflow-x: hidden;
 
 }
 
@@ -27,12 +27,41 @@ h3{
     color: #000;
 }
 
+.btn-gradiente {
+    border-radius: 50px;
+    border: #007bff 2px solid;
+}
+
+.link-nav {
+    color: #000;
+}
+
+.titulo {
+    color: #00ed01;
+    font-size: 70px;
+}
+
+.text-green {
+    color: #00ed01;
+}
+
+.card-header {
+    background-color: #000;
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,1);
+    border-radius: .25rem;
+}
 
 /* FIM CORES */
 
 .banner {
-    background-color: aqua;
+    background-image: url(../images/background.png);
     background-size: cover;
+    background-position-y: -25px;
+    background-repeat: no-repeat;
+    background-color: #f8f9fa;
 }
 
 
