@@ -29,7 +29,13 @@ h3{
 
 .btn-gradiente {
     border-radius: 50px;
-    border: #007bff 2px solid;
+    background: linear-gradient(to right, #4a2ed3, #6f93ff);
+    color: #fff;
+    border: none;
+}
+
+.btn-gradiente:hover {
+    transform:scale(1.05);
 }
 
 .link-nav {
