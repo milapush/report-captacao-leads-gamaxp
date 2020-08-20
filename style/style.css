@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+
+}
+
+/* TAMANHOS DE FONTES */
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+h3{
+    font-size: 1.1rem;
+}
+
+.btn-default {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-default:hover {
+    background-color: yellow;
+    color: #000;
+}
+
+
+/* FIM CORES */
+
+.banner {
+    background-color: aqua;
+    background-size: cover;
+}
+
+
+@media screen and (min-width:992px) {
+
+}
+
+@media screen and (min-width:1025px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.7rem;
+    }
+}
