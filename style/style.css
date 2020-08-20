@@ -51,13 +51,33 @@ h3{
     color: #00ed01;
 }
 
+.text-purple {
+    color: #512dd8
+}
+
+.bg-blue {
+    background-color: #e0eefd;
+}
+
+.bg-purple {
+    background-color: #5042dd;
+}
+
+.bg-purple-dark {
+    background-color: #281f5a;
+}
+
 .card-header {
     background-color: #000;
 }
 
-.card {
+.main-card {
     border: 1px solid rgba(0,0,0,1);
     border-radius: .25rem;
+}
+
+.rounded {
+    border-radius: 50px;
 }
 
 /* FIM CORES */
@@ -70,6 +90,75 @@ h3{
     background-color: #f8f9fa;
 }
 
+/* CSS SOBRE NÓS */
+
+.bg-gradiente {
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(49deg, #492bd2, #27acff);
+    background-image: -moz-linear-gradient(49deg, #492bd2, #27acff);
+    background-image: -ms-linear-gradient(49deg, #492bd2, #27acff);
+    background-image: -o-linear-gradient(49deg, #492bd2, #27acff);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#492bd2', endColorstr='#27acff' );
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#492bd2', endColorstr='#27acff' );";
+    background-image: linear-gradient(49deg, #492bd2, #27acff);
+}
+
+.banner-sn {
+    background-image: url(../images/bg-help-gestao.jpg);
+    background-size: cover;
+    background-position-y: -40px;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+.btn-hacker {
+    background-color: #f58a07;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.btn-hipster {
+    background-color: #ff12b4;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.btn-hustler {
+    background-color: #008fbe;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.btn-hyper {
+    background-color: #89df24;
+    border-radius: 20px;
+    color: #fff;
+}
+
+
+.btn-hacker:hover {
+    color: #fff;
+    transform:scale(1.05);
+    text-decoration: none;
+}
+
+.btn-hipster:hover {
+    color: #fff;
+    transform:scale(1.05);
+    text-decoration: none;
+}
+
+.btn-hustler:hover {
+    color: #fff;
+    transform:scale(1.05);
+    text-decoration: none;
+}
+
+.btn-hyper:hover {
+    color: #fff;
+    transform:scale(1.05);
+    text-decoration: none;
+}
 
 @media screen and (min-width:992px) {
 
