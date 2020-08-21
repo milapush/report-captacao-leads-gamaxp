@@ -130,7 +130,7 @@ h3{
 }
 
 .btn-hyper {
-    background-color: #89df24;
+    background-color: #29de02;
     border-radius: 20px;
     color: #fff;
 }
@@ -158,6 +158,11 @@ h3{
     color: #fff;
     transform:scale(1.05);
     text-decoration: none;
+}
+
+.conteudo-wave {
+    background-image: url(../images/bg-wave.png);
+    background-size: cover;
 }
 
 @media screen and (min-width:992px) {
