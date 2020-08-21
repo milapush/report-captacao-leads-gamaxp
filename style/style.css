@@ -64,7 +64,7 @@ h3{
 }
 
 .bg-purple-dark {
-    background-color: #281f5a;
+    background-color: #000000;
 }
 
 .card-header {
@@ -112,13 +112,13 @@ h3{
 }
 
 .btn-hacker {
-    background-color: #f58a07;
+    background-color: #ff6910;
     border-radius: 20px;
     color: #fff;
 }
 
 .btn-hipster {
-    background-color: #ff12b4;
+    background-color: #ff006a;
     border-radius: 20px;
     color: #fff;
 }
