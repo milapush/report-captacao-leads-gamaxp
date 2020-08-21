@@ -71,11 +71,11 @@
 }
 
 .slick-prev:before {
-    content: url('../img/arrow-left.png');
+    content: url('../images/arrow-left.png');
 }
 
 [dir='rtl'] .slick-prev:before {
-    content: url('../img/arrow-right.png');
+    content: url('../images/arrow-right.png');
 }
 
 .slick-next {
@@ -88,11 +88,11 @@
 }
 
 .slick-next:before {
-    content: url('../img/arrow-right.png');
+    content: url('../images/arrow-right.png');
 }
 
 [dir='rtl'] .slick-next:before {
-    content: url('../img/arrow-left.png');
+    content: url('../images/arrow-left.png');
 }
 
 /* Dots */

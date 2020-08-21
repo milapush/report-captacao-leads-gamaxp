@@ -44,7 +44,7 @@ h3{
 
 .titulo {
     color: #00ed01;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .text-green {
@@ -83,12 +83,9 @@ h3{
 /* FIM CORES */
 
 .banner {
-    background-image: url(../images/background.png);
-    background-size: cover;
-    background-position-y: -25px;
-    background-repeat: no-repeat;
-    background-color: #f8f9fa;
+    background-color: #000
 }
+
 
 /* CSS SOBRE NÓS */
 
@@ -104,11 +101,8 @@ h3{
 }
 
 .banner-sn {
-    background-image: url(../images/bg-help-gestao.jpg);
-    background-size: cover;
-    background-position-y: -40px;
-    background-repeat: no-repeat;
-    min-height: 500px;
+    background-color: #fff;
+
 }
 
 .btn-hacker {
@@ -165,8 +159,31 @@ h3{
     background-size: cover;
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:768px) {
+    .banner {
+        background-image: url(../images/background.png);
+        background-size: cover;
+        background-position-y: -25px;
+        background-repeat: no-repeat;
+        background-color: #f8f9fa;
+    }
+    .banner-sn {
+        background-image: url(../images/bg-help-gestao.jpg);
+    background-size: cover;
+    background-position-y: -80px;
+    background-repeat: no-repeat;
+    min-height: 419px;
+    }
+}
 
+@media screen and (min-width:992px) {
+        .titulo {
+            font-size: 70px;
+        }
+        .banner-sn {
+            background-position-y: -40px;
+            min-height: 500px;
+        }
 }
 
 @media screen and (min-width:1025px) {
@@ -178,5 +195,9 @@ h3{
     }
     h3{
         font-size: 1.7rem;
+    }
+
+    .banner {
+        background-position-y: -25px;
     }
 }
