@@ -13,7 +13,7 @@ Este projeto foi criado com para apresentar os resultados do Desafio Show Me The
 Finalizado :heavy_check_mark:
  
 #### :rocket: Deploy:
-https://report-showme-the-leads.netlify.app/
+[www.report-showme-the-leads.netlify.app](https://bit.ly/3gYhl80)
 
  <br>
 <img src="https://img.shields.io/static/v1?label=Bootstrap&message=Framework&color=DarkViolet&style=for-the-badge&logo=bootstrap"/>
