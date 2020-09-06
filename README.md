@@ -8,4 +8,13 @@ Este projeto foi criado com para apresentar os resultados do Desafio Show Me The
 
     • Atividades realizadas por cada stack e seus respectivos resultados e aprendizados.
 
+#### Status
 
+Finalizado :heavy_check_mark:
+ 
+#### :rocket: Deploy:
+https://report-showme-the-leads.netlify.app/
+
+ <br>
+<img src="https://img.shields.io/static/v1?label=Bootstrap&message=Framework&color=DarkViolet&style=for-the-badge&logo=bootstrap"/>
+<img src="https://img.shields.io/static/v1?label=Netlify&message=deploy&color=blue&style=for-the-badge&logo=netlify"/>
